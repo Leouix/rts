@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://e5xti2mb3w6e"]
+
+[ext_resource type="Script" path="res://terrain_system.gd" id="1_wp6od"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_usnpt"]
+
+[node name="TerrainSystem" type="Node3D"]
+script = ExtResource("1_wp6od")
+terrain_material = SubResource("ShaderMaterial_usnpt")

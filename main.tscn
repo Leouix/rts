@@ -1,7 +1,10 @@
 [gd_scene load_steps=3 format=3 uid="uid://dqph1fjix753d"]
 
 [ext_resource type="PackedScene" uid="uid://d4kdg3bumynvj" path="res://rts_controller.tscn" id="1_36474"]
+[ext_resource type="PackedScene" uid="uid://e5xti2mb3w6e" path="res://terrain_system.tscn" id="2_k31so"]
 
 [node name="Main" type="Node3D"]
 
 [node name="RTSController" parent="." instance=ExtResource("1_36474")]
+
+[node name="TerrainSystem" parent="." instance=ExtResource("2_k31so")]
